@@ -1,0 +1,85 @@
+*{margin: 0;}
+
+html{font-size: 10px;}
+body{font-size: 1rem;}
+a{text-decoration: none; color: #ffffff;}
+/*탑라이트버텀레프트*/
+header{height: 8.0rem; text-align: center; background-color: #F0F0F0}
+header > nav{margin:auto; display: flex; justify-content: space-between; align-items: center;}
+header > nav > .logo{display: inline-block; padding: 2.6rem 0rem 2.0rem 4.0rem;}
+header > nav > .menu{display: inline-block; padding-right: 4.0rem;}
+
+header > .nav_menu{position: relative;display: none;}
+header > .nav_menu > ul{display: inline-block;width: 100%;padding: 0rem 0rem;}
+header > .nav_menu > ul > li{list-style: none;text-align: right;background-color: #0219B7;padding: 1.3rem 2.3rem;border-bottom: 1px solid #ffffff;}
+header > .nav_menu > ul > li > a{font-family: 'Noto Sans KR', sans-serif;font-size: 1.6rem;font-weight: 500;}
+
+header > .nav_menu.active{display: flex;}
+
+section > .key{text-align: center;background-image: url('../img/m_key.png');height: 46.0rem;}
+section > .key > img{padding-top: 13.7rem;}
+
+section > .profile{background-image: url('../img/m_pf_bg.png');height: 134.5rem;}
+section > .profile > .pf_01{padding-top: 5.0rem; padding-left: 4.0rem;}
+section > .profile > .pf_02, .pf_03, .pf_04{margin-top: 5.0rem; margin-left: 4.0rem;}
+
+section > .contact{background-image: url('../img/m_ct_bg.png');height: 16.5rem;}
+section > .contact > .ct_01{padding-top: 3.6rem; padding-left: 4.0rem;}
+
+footer{background-color: #F0F0F0;height: 7.0rem;text-align: center;}
+footer > img{padding-top: 2.3rem;}
+
+.top_bt{background-image: url('../img/m_up_bt1.png');position: fixed; width: 4rem; height: 4rem; right: 0rem; bottom: 0rem;}
+
+
+/*서브페이지01*/
+.sub01_key{background-image: url('../img/m_01_key.png'); height: 34rem; text-align: center;}
+.sub01_key > img{padding-top: 14.4rem;}
+
+.sub01_pf{background-color: #242424; height: 295rem; text-align: center;}
+.sub01_pf > .bt{padding-top: 4rem; padding-bottom: 4rem; width: 17.5rem; margin: auto;}
+.sub01_pf > .bt > a > img{margin-top: 0.7rem;}
+
+.sub01_pf > .pf_tit{}
+.sub01_pf > .pf_img_A{margin-top: -0.3rem;}
+.sub01_pf > .pf_img_B{}
+.sub01_pf > .pf_txt{margin-top: 2.0rem; margin-bottom: 3.5rem;}
+
+/*서브페이지02*/
+.sub02_key{background-image: url('../img/m_02_key.png'); height: 34rem; text-align:center;}
+.sub02_key > img{padding-top: 14.4rem;}
+
+.sub02_pf{background-color: #242424; height: 453rem; text-align: center;}
+.sub02_pf > .bt{padding-top: 4rem; padding-bottom: 4rem; width: 17.5rem; margin: auto;}
+.sub02_pf > .bt > a > img{margin-top: 0.7rem;}
+
+.sub02_pf > .pf_tit{}
+.sub02_pf > .pf_img_A{margin-top: -0.3rem;}
+.sub02_pf > .pf_img_B{}
+.sub02_pf > .pf_txt{margin-top: 2.0rem; margin-bottom: 3.5rem;}
+
+/*서브페이지03*/
+.sub03_key{background-image: url('../img/m_03_key.png'); height: 34rem;  text-align:center;}
+.sub03_key > img{padding-top: 14.4rem;}
+
+.sub03_pf{background-color: #242424; height: 339.3rem; text-align: center;}
+.sub03_pf > .bt{padding-top: 4rem; padding-bottom: 4rem; width: 17.5rem; margin: auto;}
+.sub03_pf > .bt > a > img{margin-top: 0.7rem; }
+
+.sub03_pf > .pf_tit{}
+.sub03_pf > .pf_img_A{margin-top: -0.3rem;}
+.sub03_pf > .pf_img_B{}
+.sub03_pf > .pf_txt{margin-top: 2.0rem; margin-bottom: 3.5rem;}
+
+/*서브페이지04*/
+.sub04_key{background-image: url('../img/m_04_key.png'); height: 34rem;  text-align:center;}
+.sub04_key > img{padding-top: 14.4rem;}
+
+.sub04_pf{background-color: #242424; height: 272.2rem; text-align: center;}
+.sub04_pf > .bt{padding-top: 4rem; padding-bottom: 4rem; width: 17.5rem; margin: auto;}
+.sub04_pf > .bt > a > img{margin-top: 0.7rem;}
+
+.sub04_pf > .pf_tit{}
+.sub04_pf > .pf_img_A{margin-top: -0.3rem;}
+.sub04_pf > .pf_img_B{}
+.sub04_pf > .pf_txt{margin-top: 2.0rem; margin-bottom: 3.5rem;}

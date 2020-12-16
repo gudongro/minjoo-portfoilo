@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ko" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <title>Minjoo's Portfoilo</title>
+    <link rel="stylesheet"href="css/style.css"type="text/css">
+    <link rel="stylesheet" href="css/aos.css">
+    
+    <!--font-->
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+       <header id="anchor6">
+           <nav>
+               <div class="logo">
+                   <a href="index.html"><img src="img/index_logo.png" alt="UPRISING"></a>
+               </div>
+               <div class="menu">
+                   <ul>
+                       <li><a href="sub01.html">ADVERTISING</a></li>
+                       <li><a href="sub02.html" style="color: #071DB8;">EDITORIAL</a></li>
+                       <li><a href="sub03.html">IDENTITY</a></li>
+                       <li><a href="sub04.html">PACKAGE</a></li>
+                   </ul>
+               </div>
+           </nav>
+       </header>
+       <section>
+           <div class="sub02_key">
+               <div class="sub02_key_wrap">
+                   <div class="sub02_key_tit" data-aos="fade-left" data-aos-duration="1200">
+                       <img src="img/02_keyvisual_txt.png" alt="ADVERTISING">                   
+                   </div>
+               </div>
+           </div>
+           <div class="butten">
+               <div class="butten_wrap" data-aos="fade-right" data-aos-duration="1200">
+                   <ul>
+                       <li><a onclick="fnMove('1')"><img src="img/02_bt_01.jpg"></a></li>
+                       <li><a onclick="fnMove('2')"><img src="img/02_bt_02.jpg"></a></li>
+                       <li><a onclick="fnMove('3')"><img src="img/02_bt_03.jpg"></a></li>
+                       <li><a onclick="fnMove('4')"><img src="img/02_bt_04.jpg"></a></li>
+                       <li><a onclick="fnMove('5')"><img src="img/02_bt_05.jpg"></a></li>
+                   </ul>
+               </div>
+           </div>
+           <div class="sub02_pf">
+               <div class="sub02_pf_wrap">
+                   <div class="pf_tit_A" id="anchor1" data-aos="fade-right" data-aos-duration="1200"><img src="img/02_tit_01.png" alt="리플렛"></div>
+                   <div class="pf_img_A" data-aos="fade-right" data-aos-duration="1200"><img src="img/02_img_01.png" alt="드럼세트"></div>
+                   <div class="pf_txt" data-aos="fade-right" data-aos-duration="1200"><img src="img/02_img_txt_01.png" alt="드럼세트"></div>
+                   
+                   <div class="pf_tit_B" id="anchor2" data-aos="fade-right" data-aos-duration="1200"><img src="img/02_tit_02.png" alt="신문"></div>
+                   <div class="pf_img_A" data-aos="fade-right" data-aos-duration="1200"><img src="img/02_img_02.png" alt="중앙일보"></div>
+                   <div class="pf_txt" data-aos="fade-right" data-aos-duration="1200"><img src="img/02_img_txt_02.png" alt="중앙일보"></div>
+                   
+                   <div class="pf_tit_B" id="anchor3" data-aos="fade-right" data-aos-duration="1200"><img src="img/02_tit_03.png" alt="책표지"></div>
+                   <div class="pf_img_A" data-aos="fade-right" data-aos-duration="1200"><img src="img/02_img_03.png" alt="에세이"></div>
+                   <div class="pf_txt" data-aos="fade-right" data-aos-duration="1200"><img src="img/02_img_txt_03.png" alt="에세이"></div>
+                   
+                   <div class="pf_tit_B" id="anchor4" data-aos="fade-right" data-aos-duration="1200"><img src="img/02_tit_04.png" alt="명함"></div>
+                   <div class="pf_img_A" data-aos="fade-right" data-aos-duration="1200"><img src="img/02_img_04.png" alt="산돌"></div>
+                   <div class="pf_txt" data-aos="fade-right" data-aos-duration="1200"><img src="img/02_img_txt_04.png" alt="산돌"></div>
+                   
+                   <div class="pf_tit_B" id="anchor5" data-aos="fade-right" data-aos-duration="1200"><img src="img/02_tit_05.png" alt="달력"></div>
+                   <div class="pf_img_A" data-aos="fade-right" data-aos-duration="1200"><img src="img/02_img_05.png" alt="춘하추동"></div>
+                   <div class="pf_txt" data-aos="fade-right" data-aos-duration="1200"><img src="img/02_img_txt_05.png" alt="춘하추동"></div>
+                   
+               </div>
+           </div>
+       </section>
+       <footer>
+           <div class="footer_wrap">
+               <span class="footer_txt">(C) 2020. Jung minjoo. All Rights Reserved.</span>
+           </div>
+       </footer>
+       
+      <!--top 버튼-->
+      <a onclick="fnMove('6')"><div class="top_bt"></div></a>
+       
+      <!--스크롤 스크립트-->
+      <script type="text/javascript" src="js/jquery-latest.js"></script>
+      <script>
+       function fnMove(seq){
+         var offset = $("#anchor" + seq).offset();
+         $('html,body').animate({scrollTop : offset.top}, 1200);
+       }
+      </script>
+
+     <!--AOS 스크립트-->
+     <script type="text/javascript" src="js/aos.js"></script>
+     <script>
+      AOS.init({
+        easing: 'ease-in-out-sine'
+      });
+      </script>
+</body>
+</html>
