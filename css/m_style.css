@@ -4,9 +4,9 @@ html{font-size: 10px;}
 body{font-size: 1rem;}
 a{text-decoration: none; color: #ffffff;}
 /*탑라이트버텀레프트*/
-header{height: 8.0rem; text-align: center; background-color: #F0F0F0}
+header{height: 7.0rem; text-align: center; background-color: #F0F0F0}
 header > nav{margin:auto; display: flex; justify-content: space-between; align-items: center;}
-header > nav > .logo{display: inline-block; padding: 2.6rem 0rem 2.0rem 4.0rem;}
+header > nav > .logo{display: inline-block; padding: 2.0rem 0rem 1.8rem 4.0rem;}
 header > nav > .menu{display: inline-block; padding-right: 4.0rem;}
 
 header > .nav_menu{position: relative;display: none;}

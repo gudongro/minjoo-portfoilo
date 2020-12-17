@@ -32,8 +32,8 @@ footer{background-color: #f0f0f0; height: 8rem;}
 footer > .footer_wrap{margin: auto;width: 102.4rem; text-align: center;}
 footer > .footer_wrap > .footer_txt{display:inline-block; padding-top: 2.4rem; font-family: 'Noto Sans KR', sans-serif; font-size: 1.9rem;font-weight: 500; color: #071DB8;}
 
-.top_bt{background-image: url('../img/up_bt1.jpg'); position: fixed; width: 7rem; height: 7rem; right: 0rem; bottom: 0rem;}
-.top_bt:hover{background-image: url('../img/up_bt2.jpg')}
+.top_bt{background-image: url('../img/up_bt1.png'); position: fixed; width: 7rem; height: 7rem; right: 0rem; bottom: 0rem;}
+.top_bt:hover{background-image: url('../img/up_bt2.png')}
 
 /*서브페이지 공통*/
 section > .butten {background-color: #242424; height: 19.2rem}
